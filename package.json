@@ -1,0 +1,22 @@
+{
+  "name": "iot-apps",
+  "version": "1.0.0",
+  "description": "IoT Apps",
+  "main": "serial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disono/IoT-Apps.git"
+  },
+  "author": "Archie Disono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disono/IoT-Apps/issues"
+  },
+  "homepage": "https://github.com/disono/IoT-Apps#readme",
+  "dependencies": {
+    "serialport": "^5.0.0-beta8"
+  }
+}
