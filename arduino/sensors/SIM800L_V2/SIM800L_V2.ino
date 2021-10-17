@@ -53,7 +53,6 @@ void loop() {
   }
 }
 
-
 void updateSerial() {
   delay(500);
   
