@@ -37,6 +37,7 @@ void loop() {
     Serial.println("Serial available end");
   }
 
+  delay(10000);
   if (isSent == false) {
     isSent = true;
 
@@ -45,7 +46,7 @@ void loop() {
 
     mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
     updateSerial();
-    mySerial.println("AT+CMGS=\"+630000000000\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
+    mySerial.println("AT+CMGS=\"+639271427638\"");// change ZZ with country code and xxxxxxxxxxx with phone number to sms
     updateSerial();
     mySerial.print("sample text"); //text content
     updateSerial();
